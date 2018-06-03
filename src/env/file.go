@@ -51,7 +51,7 @@ func FindConfigFile(cmd *Cmd) {
 				}
 			}
 			// 如果是文件
-			if !info.IsDir() {
+			if info != nil && !info.IsDir() {
 				// 如果是yml文件，则加入解析路径
 				if strings.HasSuffix(path, ".yml") {
 					cmd.realFiles = append(cmd.realFiles, path)
