@@ -1,0 +1,21 @@
+name: 'test'
+desc: '测试配置'
+rootPath: /tmp
+loadedTip: '测试加载成功'
+envs:
+  -
+    name: 'test'
+    value: '123'
+    isPath: false
+  -
+    name: 'test'
+    value: '123'
+    isPath: false
+  -
+    name: 'test'
+    value: '123'
+    isPath: false
+  -
+    name: 'test'
+    value: '123'
+    isPath: false
